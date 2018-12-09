@@ -35,6 +35,8 @@ Respostas:
         "value": 4.42
     }
 }
+
+Obs.: Ao informar uma data inválida, é retornada a cotação da data atual.
 ```
 
 ```
@@ -68,6 +70,8 @@ Respostas:
         }
     ]
 }
+
+Obs.: Não há tratamento de erro sobres os intervalos pesquisados.
 ```
 
 ## Demo
@@ -75,3 +79,7 @@ Respostas:
 A demo da aplicação pode ser acessada [aqui](https://euro-api.glitch.me/).
 
 Obs.:Por ser um serviço gratuito pode sofrer algum delay inicialmente.
+
+## Limitações
+
+* Não há tratamento de erro sobres os intervalos pesquisados.
